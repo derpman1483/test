@@ -1,3 +1,4 @@
-function click(){
-document.getElementById("demo").innerHTML=true;
+function click() {
+    document.getElementById("demo").innerHTML = true;
 }
+window.click = click; // Make it globally accessible
